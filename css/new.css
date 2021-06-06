@@ -1,0 +1,93 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --main-font: Montserrat, sans-serif;
+}
+
+body {
+  font-weight: 400;
+  font-family: var(--main-font);
+  background-color: #282828;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+nav {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.address {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+button {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-align: center;
+  background-color: #99862a;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+}
+
+.button {
+  margin-top: 583px;
+}
+
+.title {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.story {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
